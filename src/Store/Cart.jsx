@@ -10,7 +10,7 @@ import { getErrorMsg, serverUrl, serverUrlAPI } from '../Utils/info';
 import { calculateDiscount } from './Category';
 import toast from 'react-hot-toast';
 import { func } from 'prop-types';
-import ContentLoader from '../UI_Components/contentLoader';
+import ContentLoader from '../UI_Components/ContentLoader';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 function Cart() {
