@@ -11,7 +11,7 @@ import { serverUrl } from '../Utils/info';
 import Error from '../UI_Components/Error';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { ClipLoader } from "react-spinners";
-import ContentLoader from '../UI_Components/contentLoader';
+import ContentLoader from '../UI_Components/ContentLoader';
 
 
 
