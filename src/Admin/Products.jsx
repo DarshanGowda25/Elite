@@ -4,7 +4,7 @@ import { axiosInstance } from '../Utils/axioInstance';
 import { getErrorMsg, serverUrl, serverUrlAPI } from '../Utils/info';
 import Category, { ProductCards } from '../Store/Category';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import ContentLoader from '../UI_Components/contentLoader';
+import ContentLoader from '../UI_Components/ContentLoader';
 import { ClipLoader } from 'react-spinners';
 import { ErrorMessage, Form, Formik } from 'formik';
 import { TiDelete } from "react-icons/ti";
