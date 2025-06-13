@@ -4,7 +4,7 @@ import ReactStars from 'react-stars';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { axiosInstance } from '../Utils/axioInstance';
 import { getErrorMsg, serverUrlAPI } from '../Utils/info';
-import ContentLoader from '../UI_Components/contentLoader';
+import ContentLoader from '../UI_Components/ContentLoader';
 import { calculateDiscount } from './Category';
 import { useLocation, useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
