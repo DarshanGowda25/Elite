@@ -7,7 +7,7 @@ import { Footer } from '../User/Home';
 import { useQuery } from '@tanstack/react-query';
 import { axiosInstance } from '../Utils/axioInstance';
 import { serverUrlAPI } from '../Utils/info';
-import ContentLoader from '../UI_Components/contentLoader';
+import ContentLoader from '../UI_Components/ContentLoader';
 import { calculateDiscount } from './Category';
 import { useNavigate } from 'react-router-dom';
 
